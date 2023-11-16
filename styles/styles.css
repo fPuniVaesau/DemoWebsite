@@ -127,6 +127,27 @@ body{
 }
 
 /* Main Content section 1  */
+.contact__btn{
+    width: 6em;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    padding: 2px 5px;
+    /* background-color: orange; */
+    transition: .3s ease-in-out;
+    border: 1px solid ;
+    
+}
+
+.contact__btn:hover{
+    width: 10em;
+    letter-spacing: 3px;
+    background-color: rgb(74, 93, 128);
+    color: whitesmoke;
+}
 
 .mainContent__section1{
     display: grid;
@@ -162,5 +183,25 @@ body{
 }
 
 .mainContent__section2__description p{
+    width: 45ch;
+}
+
+/* mainContent section3 */
+
+.mainContent__section3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 1em; */
+}
+
+.mainContent__section3__description{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: .25rem;
+    /* width: 45ch; */
+}
+
+.mainContent__section3__description p{
     width: 45ch;
 }
