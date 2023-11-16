@@ -1,0 +1,108 @@
+:root{
+    --Font-body:'Nunito Sans', sans-serif;
+    --Font-header:'Roboto', sans-serif;
+}
+
+*,
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img, 
+svg, 
+video, 
+picture{
+    display: block;
+    width: 100%;
+}
+
+body{
+    font-family: var(--Font-body);
+}
+
+/*//////////////////////////////// HEADER SECTION ////////////////////////////////*/
+
+.logo{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+
+.Navigation__Menu{
+    /* background-color: lightblue; */
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.Navigation__Menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navigation__Menu li{
+    transition: .3s ease-in-out;
+    list-style: none;
+}
+
+.Navigation__Menu a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .85em;
+}
+
+.Navigation__Menu li:hover{
+    letter-spacing: 3px;
+}
+
+.hero__section{
+    position: relative;
+}
+
+.hero__section img{
+   min-height: 500px;
+   max-height: 850px;
+   object-fit: cover;
+   align-content: center;
+}
+
+.hero__overlay {
+    font-size: 3rem;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--Font-header);
+    color: black;
+}
+
+.hero__overlay p{
+    text-align: center;
+}
+
+.small__subheader{
+    font-size: .95rem;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////// MAIN SECTION ////////////////////////////////*/
