@@ -24,6 +24,7 @@ picture{
 
 body{
     font-family: var(--Font-body);
+    scroll-behavior: smooth;
 }
 
 .wrapper{
