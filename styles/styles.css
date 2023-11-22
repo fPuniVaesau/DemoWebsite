@@ -89,6 +89,7 @@ body{
    max-height: 1000px;
    object-fit: cover;
    align-content: center;
+   opacity: 80%;
 }
 
 .hero__overlay {
@@ -104,13 +105,12 @@ body{
 
 .hero__overlay p{
     text-align: center;
-    color: whitesmoke
+    color: rgba(0, 0, 0, 0.917);
 }
 
 .small__subheader{
     font-size: .95rem;
 }
-
 
 
 /*//////////////////////////////// MAIN SECTION ////////////////////////////////*/
@@ -233,7 +233,9 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    gap: 5rem;
+    gap: 3rem;
+    /* border: 1px solid firebrick; */
+    padding: 20px;
 }
 
 
@@ -241,6 +243,7 @@ footer{
     text-decoration: none;
     line-height: 2;
     font-weight: 200;
+    transition: .3s ease-in-out;
 }
 
 .list__items{
@@ -251,4 +254,10 @@ footer{
     margin-bottom: 10px;
     font-size: 1.35rem;
     font-weight: 300;
+}
+
+.list__items a:hover{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
 }
