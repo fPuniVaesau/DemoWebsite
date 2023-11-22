@@ -157,67 +157,26 @@ body{
     border: none;
 }
 
-.mainContent__section1{
+.mainContent__section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* gap: 1em; */
-}
-
-.mainContent__section1__description{
-    display: grid;
-    place-content: center;
-    text-align: center;
-    gap: .25rem;
-    /* width: 45ch; */
-    
-}
-
-.mainContent__section1__description p{
-    width: 45ch;
-}
-
-/* mainContent section2 */
-.mainContent__section2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    /* gap: 1em; */
-}
-
-.mainContent__section2__description{
-    display: grid;
-    place-content: center;
-    text-align: center;
-    gap: .25rem;
-    /* width: 45ch; */
-}
-
-.mainContent__section2__description p{
-    width: 45ch;
-}
-
-/* mainContent section3 */
-
-.mainContent__section3{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    /* gap: 1em; */
-}
-
-.mainContent__section3__description{
-    display: grid;
-    place-content: center;
-    text-align: center;
-    gap: .25rem;
-    /* width: 45ch; */
-}
-
-.mainContent__section3__description p{
-    width: 45ch;
 }
 
 .content_image{
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.content_section{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: .25rem;
+    /* border: 1px solid firebrick; */
+}
+
+.content_section p{
+    width: 45ch;
 }
 
 /*//////////////////////////////// FOOTER SECTION ////////////////////////////////*/
