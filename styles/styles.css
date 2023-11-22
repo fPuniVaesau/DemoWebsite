@@ -215,6 +215,11 @@ body{
     width: 45ch;
 }
 
+.content_image{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
 /*//////////////////////////////// FOOTER SECTION ////////////////////////////////*/
 
 footer{
