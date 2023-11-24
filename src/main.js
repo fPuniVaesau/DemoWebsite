@@ -1,10 +1,13 @@
-// let title = document.querySelector(".big__header");
-
-// title.innerHTML = "Hello";
-
-let randomArr = ["One", "Two", "Three"];
-
-let randomNum = Math.floor(Math.random()*100);
-console.log(randomNum);
+let title = document.querySelector(".big__header");
 
 
+let randomArr = ["Life", "Health", "Happiness"];
+
+
+let changeTitle = () => {
+    let randomNum = Math.floor(Math.random()*3);
+    title.innerHTML = randomArr[randomNum];
+    return
+}
+
+setInterval(changeTitle, 10000);
