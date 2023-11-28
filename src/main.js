@@ -10,4 +10,4 @@ let changeTitle = () => {
     return
 }
 
-setInterval(changeTitle, 10000);
+setInterval(changeTitle, 7000);
