@@ -199,7 +199,7 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     gap: 3rem;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     padding: 20px;
 }
 
@@ -213,6 +213,8 @@ footer{
 
 .list__items{
     list-style: none;
+    /* border: 1px solid ; */
+    width: 10rem;
 }
 
 .footer__links h3{
@@ -229,12 +231,13 @@ footer{
 
 .icons{
     aspect-ratio: 1/1;
-    max-height: 3rem;
+    max-height: 2rem;
     max-width: 3rem;
     /* border: 1px solid ; */
 }
 
 .SocialMedia__icons{
     display: flex;
+    justify-content: center;
     /* gap: .25em; */
 }
