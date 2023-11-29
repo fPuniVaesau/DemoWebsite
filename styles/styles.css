@@ -226,3 +226,14 @@ footer{
     font-weight: 500;
     color: rgb(255, 255, 255);
 }
+
+.icons{
+    max-height: 3rem;
+    max-width: 3rem;
+    /* border: 1px solid ; */
+}
+
+.SocialMedia__icons{
+    display: flex;
+    /* gap: .25em; */
+}
