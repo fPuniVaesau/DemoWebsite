@@ -234,6 +234,11 @@ footer{
     max-height: 2.75rem;
     max-width: 3rem;
     /* border: 1px solid ; */
+    transition: .3s ease-in-out;
+}
+
+.icons:hover{
+    scale: 1.25;
 }
 
 .SocialMedia__icons{
@@ -241,4 +246,18 @@ footer{
     justify-content: center;
     align-items: center;
     /* gap: .25em; */
+}
+
+.copyrightSection{
+    padding: 10px;
+}
+
+.copyrightSection p{
+    color: #787676;
+}
+
+hr{
+    border: none;
+    border-top: 1.25px solid;
+
 }
