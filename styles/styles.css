@@ -202,6 +202,17 @@ body{
     outline-offset: 3px;
 }
 
+.review__card{
+    display: flex;
+    gap: 1.25rem;
+}
+.customer{
+    font-size: 1.25rem;
+}
+.city{
+    font-size: .85rem;
+}
+
 
 /*//////////////////////////////// FOOTER SECTION ////////////////////////////////*/
 
