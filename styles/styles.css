@@ -362,3 +362,12 @@ hr{
     border-top: 1.25px solid;
 
 }
+
+
+/* @media(max-width: 768px ){
+    .mainContent__section{
+        
+        display: grid;
+
+    }
+} */
