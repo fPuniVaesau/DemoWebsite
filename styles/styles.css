@@ -231,7 +231,7 @@ footer{
 
 .icons{
     aspect-ratio: 1/1;
-    max-height: 2rem;
+    max-height: 2.75rem;
     max-width: 3rem;
     /* border: 1px solid ; */
 }
@@ -239,5 +239,6 @@ footer{
 .SocialMedia__icons{
     display: flex;
     justify-content: center;
+    align-items: center;
     /* gap: .25em; */
 }
