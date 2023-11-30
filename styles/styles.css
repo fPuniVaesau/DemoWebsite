@@ -181,6 +181,8 @@ body{
 }
 
 /*//////////////////////////////// Review Card SECTION ////////////////////////////////*/
+
+
 .review__title{
     text-align: center;
     margin-top: 10px;
@@ -209,10 +211,13 @@ body{
 
 .review__card{
     padding: 15px;
-    border: 1px solid hsl(0, 1%, 35%);
+    outline: 1px dashed hsl(0, 0%, 0%);
+    outline-offset: 3px;
     max-width: 300px;
     min-height: 500px;
     border-radius: 15px;
+    background-color: #9b9696;
+    color: white;
 }
 
 .customer{
@@ -228,7 +233,8 @@ body{
 
 .stars__icon{
     height: 20px;
-    width: 20px
+    width: 20px;
+    color: rgb(255, 230, 91);
 }
 
 
