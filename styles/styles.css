@@ -115,17 +115,22 @@ body{
 
 
 /*//////////////////////////////// MAIN SECTION ////////////////////////////////*/
+.main__content{
+    display: grid;
+    grid-auto-flow: row;
+
+}
 
 .blockQuote__1{
-    display: flex;
+    display: gird;
+    place-content: center;
     text-align: center;
     padding: 5px;
     font-size: 2.25rem;
-    margin: 30px;
+    min-height: 150px;
+    margin: 10px; 
     /* border: 1px solid firebrick; */
-    align-items: center;
-    justify-content: center;
-    width: 45ch
+
     
 }
 
