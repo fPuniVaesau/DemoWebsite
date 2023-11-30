@@ -85,8 +85,8 @@ body{
 }
 
 .hero__section img{
-   min-height: 500px;
-   max-height: 1000px;
+   min-height: 100vh;
+   /* max-height: 1000px; */
    object-fit: cover;
    align-content: center;
    opacity: 80%;
