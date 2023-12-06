@@ -1,3 +1,14 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     min-height: 100vh;
     display: grid;
@@ -5,12 +16,32 @@ body{
 }
 
 main{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    border: 1px solid red;
+    min-width: 1000px;
+    padding: 30px;
 }
 
 img{
     display: block;
     width: 100%;
+}
+
+.login__img{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.login__wrapper{
+
+    display: grid;
+    place-content: center;
+    padding: 10px;
+
+}
+
+.login__wrapper h2{
+    margin-bottom: 10px;
+    font-size: 3rem;
 }
 
