@@ -9,6 +9,22 @@
     box-sizing: border-box;
 }
 
+button,
+fieldset,
+input,
+legend,
+select,
+textarea{
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+
 body{
     min-height: 100vh;
     display: grid;
@@ -48,3 +64,5 @@ img{
     font-size: 3rem;
 }
 
+.inputFields{
+   
