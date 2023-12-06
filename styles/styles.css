@@ -150,6 +150,11 @@ body{
     
 }
 
+.contact__btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .contact__btn:hover{
     width: 10em;
     letter-spacing: 3px;
