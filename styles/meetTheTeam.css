@@ -46,4 +46,5 @@ main{
     max-height: 150px;
     aspect-ratio: 1/1;
     border-radius: 500px;
+    object-fit: cover;
 }
