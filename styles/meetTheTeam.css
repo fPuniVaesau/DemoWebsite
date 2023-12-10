@@ -47,14 +47,15 @@ main{
     aspect-ratio: 1/1;
     border-radius: 500px;
     object-fit: cover;
+    margin: 10px auto 0px;
 }
 
 .team__wrapper{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
-.team_members{
+.team_member_roles{
     text-align: center;
 }
