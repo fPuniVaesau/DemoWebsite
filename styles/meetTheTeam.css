@@ -25,9 +25,8 @@ picture{
 body{
     font-family: var(--Font-body);
     scroll-behavior: smooth;
-    background: rgb(34,76,195);
-    background: linear-gradient(0deg, rgba(34,76,195,1) 0%, rgba(253,187,45,1) 100%);
-}
+    background: rgb(58,137,180);
+    background: linear-gradient(90deg, rgba(58,137,180,1) 0%, rgba(253,49,29,1) 50%, rgba(252,176,69,1) 100%);
 
 .wrapper{
     max-width: 1000px;
@@ -41,6 +40,7 @@ main{
     display: grid;
     place-content: center;
     min-height: 100vh;
+;
 }
 
 .team_member_img{
