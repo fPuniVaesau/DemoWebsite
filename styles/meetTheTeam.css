@@ -32,3 +32,18 @@ body{
     margin: 0 auto;
     /* padding: 10px; */
 }
+
+
+
+main{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.team_member_img{
+    max-width: 150px;
+    max-height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 500px;
+}
