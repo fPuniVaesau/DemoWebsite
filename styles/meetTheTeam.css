@@ -53,9 +53,18 @@ main{
 .team__wrapper{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 1.75rem;
 }
 
 .team_member_roles{
     text-align: center;
+}
+
+.team_member_roles h4{
+    font-size: .85rem;
+}
+
+.title{
+    font-size: 4rem;
+    margin-bottom: 20px;
 }
