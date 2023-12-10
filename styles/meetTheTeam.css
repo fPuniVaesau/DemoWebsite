@@ -48,3 +48,13 @@ main{
     border-radius: 500px;
     object-fit: cover;
 }
+
+.team__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.team_members{
+    text-align: center;
+}
