@@ -1,0 +1,34 @@
+:root{
+    --Font-body:'Nunito Sans', sans-serif;
+    --Font-header:'Roboto', sans-serif;
+}
+
+*,
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img, 
+svg, 
+video, 
+picture{
+    display: block;
+    width: 100%;
+}
+
+body{
+    font-family: var(--Font-body);
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 10px; */
+}
