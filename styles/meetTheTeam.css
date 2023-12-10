@@ -25,6 +25,8 @@ picture{
 body{
     font-family: var(--Font-body);
     scroll-behavior: smooth;
+    background: rgb(34,76,195);
+    background: linear-gradient(0deg, rgba(34,76,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .wrapper{
