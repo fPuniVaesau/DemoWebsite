@@ -102,3 +102,41 @@ input:focus{
     background-color: rgb(83, 108, 147);
     color: #fff;
 }
+
+.Navigation__Menu{
+    /* background-color: lightblue; */
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.Navigation__Menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navigation__Menu li{
+    transition: .3s ease-in-out;
+    list-style: none;
+}
+
+.Navigation__Menu a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .85em;
+}
+
+.Navigation__Menu li:hover{
+    letter-spacing: 1.5px;
+    
+}
+
+.Navigation__Menu a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
