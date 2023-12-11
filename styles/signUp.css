@@ -1,0 +1,72 @@
+:root{
+    --Font-body:'Nunito Sans', sans-serif;
+    --Font-header:'Roboto', sans-serif;
+}
+
+*,
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img, 
+svg, 
+video, 
+picture{
+    display: block;
+    width: 100%;
+}
+
+body{
+    font-family: var(--Font-body);
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+
+.Navigation__Menu{
+    /* background-color: lightblue; */
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.Navigation__Menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navigation__Menu li{
+    transition: .3s ease-in-out;
+    list-style: none;
+}
+
+.Navigation__Menu a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .85em;
+}
+
+.Navigation__Menu li:hover{
+    letter-spacing: 1.5px;
+    
+}
+
+.Navigation__Menu a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
